@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+img#hero{
+    width: 200px;
+    border-radius: 100%;
+    margin: 10px 0px 10px 0px;
+}
+h1#hero{
+    font-style: italic;
+    color: white;
+    font-family: "silkscreen", cursive;
+}
+h4{
+    color: white
+}
+nav{
+    background-color: grey;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 100%;
+}
+li{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+li:hover{
+    height: 30px;
+}
+li a{
+    font-family: silkscreen, cursive;
+    font-size: 20px;
+    text-decoration: nome;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+li a:hover{
+    color: black;
+}
+main{
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+img#hero2{
+    width: 500px;
+    margin: 0px 0px 0px 0px;
+
+}
+h3{
+    color: white;
+}
+footer{
+    position: fixed;
+    bottom: 0%;
+    background-color: black;
+    height: 56px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h5{
+    color: white;
+}
+@media screen and (max-width: 480px) {
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+    #hero2{
+        width: 200px;
+        height: 56px;
+    }
+    main{
+        display: block;
+    }
+  }
